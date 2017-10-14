@@ -1,0 +1,22 @@
+{
+  "name": "cbsbot",
+  "version": "1.0.0",
+  "description": "A NodeJS Bot running Microsoft Bot Framework and Restify",
+  "main": "cbsbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambhav2612/my-cbs-bot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Sambhav Jain",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "^3.11.0",
+    "restify": "^6.0.1"
+  }
+}
