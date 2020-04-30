@@ -4,7 +4,9 @@
   "description": "A NodeJS Bot running Microsoft Bot Framework and Restify",
   "main": "cbsbot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   "license": "MIT",
   "dependencies": {
     "botbuilder": "^3.11.0",
-    "restify": "^6.0.1"
-  }
+    "restify": "^6.0.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
