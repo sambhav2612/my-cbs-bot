@@ -16,7 +16,7 @@
   "author": "Sambhav Jain",
   "license": "MIT",
   "dependencies": {
-    "botbuilder": "^3.11.0",
+    "botbuilder": "^4.0.6",
     "restify": "^6.0.1"
   }
 }
